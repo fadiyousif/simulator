@@ -1,7 +1,7 @@
 # Simulator
 
-Initial position: [0,0]
-Initial direction: east (E)
+Initial position: [0,0] <br>
+Initial direction: east (E) <br>
 Grid: 10x10
 
 ## Project Specifications

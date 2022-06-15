@@ -1,7 +1,6 @@
 const x = 0;
 const y = 0;
 const vehiclePosition = [x, y];
-const vehiclePositionCopy = [...vehiclePosition];
 
 const grid = [10, 10];
 const directions = ["N", "E", "S", "W"];

@@ -165,7 +165,10 @@ console.log(`initial direction: ${currentDirection}`);
 // move the vehicle from [0,0] to [2,2] and change direction to S
 handleInput("FFRFF");
 
-// rotate the vehicle so that direction becomes N, then attempt to move 3x forward, which will result in an error explaining that [-1,2] is outside the limits of the grid. The error will be caught by the script, which then reverts vehicle position and direction to the values before the function was run. Therefore the vehicle is back at [2,2] and direction is set to S
+// rotate the vehicle so that direction becomes N, then attempt to move 3x forward, which will result in an error 
+// explaining that [-1,2] is outside the limits of the grid. The error will be caught by the script,
+// which then reverts vehicle position and direction to the values before the function was run. 
+// Therefore the vehicle is back at [2,2] and direction is set to S
 handleInput("LLFFF");
 
 // back up, rotate vehicle to E and move forward 3x to [1,5]
